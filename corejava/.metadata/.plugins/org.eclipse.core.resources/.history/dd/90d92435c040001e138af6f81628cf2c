@@ -1,0 +1,14 @@
+package in.com.inheritance;
+
+public class TestSRCT {
+	
+	public static void main(String[] args) {
+	
+	   Triangle t1= new Triangle();
+	   t1.SetBase(10);
+	   t1.SetHeight(12);
+	   t1.area();
+	   
+	}
+
+}

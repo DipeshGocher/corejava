@@ -1,0 +1,13 @@
+package in.com.batch;
+
+public class Switch {
+ 
+	public static void main(String arg[]) {
+		int day=1;
+		switch (day) {
+		
+		case 1:
+			System.out.println("sunday");
+		}
+	}
+}

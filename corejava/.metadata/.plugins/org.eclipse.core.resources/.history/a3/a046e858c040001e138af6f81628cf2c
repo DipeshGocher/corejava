@@ -1,0 +1,20 @@
+package in.com.inheritance;
+
+public class Testshaperactangle {
+	public static void main(String[] args) {
+		
+	
+	Rectangle r1 = new Rectangle();
+	
+	r1.SetColor("pink");
+	r1.SetBorderWidth(10);
+	r1.SetLength(50);
+	r1.SetWidth(20);
+	r1.area();
+	
+    System.out.println(r1.getColor());
+    System.out.println(r1.getBorderWidth());
+	System.out.println(r1.getWidth());
+    System.out.println(r1.getLength());
+}
+}

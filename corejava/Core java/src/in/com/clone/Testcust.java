@@ -1,0 +1,21 @@
+package in.com.clone;
+
+public class Testcust {
+
+public static void main(String[] args) throws CloneNotSupportedException {
+	
+	Customer c1 = new Customer("shubham");
+	Customer c2 = (Customer) c1.clone();
+	
+	c2.name = "hardeep";
+	c2.a.balance = 50000;
+	
+	System.out.println("original");
+	System.out.println("Name="+c1.name);
+    System.out.println("balance"+c1.a.balance);
+    
+    System.out.println("duplicate cloneable");
+    System.out.println("Name="+c2.name);
+    System.out.println("Balance="+c2.a.balance);
+}
+}

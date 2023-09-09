@@ -1,0 +1,25 @@
+package in.com.iohard;
+
+import java.io.FileInputStream;
+
+import java.io.ObjectInputStream;
+
+public class TestDeserializable {
+	
+	public static void main(String[] args) throws Exception {
+		
+		FileInputStream file = new FileInputStream("C:\\Users\\ACER\\OneDrive\\Desktop\\iohard\\obj.txt");
+		ObjectInputStream in = new ObjectInputStream(file);
+		
+		Employee e = (Employee)in.readObject();
+		System.out.println("EMPID = " + e.empId);
+		System.out.println("NAME = " + e.name);
+		System.out.println("SALARY = " + e.salary);
+		System.out.println("BONUS = "  + e.bonus);
+		System.out.println("TOTAL = " + e.total);
+		
+		file.close();
+		in.close();
+	}
+
+}

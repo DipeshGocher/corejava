@@ -1,0 +1,8 @@
+package in.com.iohard;
+
+public class Scanner1 {
+	public static void main(String[] args) {
+		FileReader file = new FileReader("C:\\Users\\ACER\\OneDrive\\Desktop\\iohard\\dipesh.txt")
+	}
+
+}

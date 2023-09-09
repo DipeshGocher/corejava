@@ -1,0 +1,23 @@
+package in.com.batch;
+
+public class TestShape {
+	public static void main(String[] args) {
+		
+		Shape s= new Shape(10,"red");
+		
+		System.out.println(s.getColor());
+		System.out.println(s.getBorderWidth());
+		
+		s.SetColor("blue");
+		s.SetBorderWidth(100);
+		
+		System.out.println(s.getColor());
+		System.out.println(s.getBorderWidth());
+	}
+}
+		
+		
+		
+	
+
+
