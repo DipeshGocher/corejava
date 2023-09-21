@@ -1,0 +1,32 @@
+package in.com.collections;
+
+import java.util.ArrayList;
+import java.util.List;
+
+public class Listforeven 
+{
+	
+	public static void main(String[] args) {
+		 
+		List<Integer> list = new ArrayList <Integer>();
+		list.add(21);
+		list.add(22);
+		list.add(23);
+		list.add(24);
+		list.add(25);
+	//	System.out.println(list);
+		
+	
+		// for even number
+		
+		List<Integer> evenlist = new ArrayList<Integer>();
+		
+		for (Integer i : list) {
+			if (i%2==0) {
+				evenlist.add(i);	
+			}	
+		}
+		System.out.println(list);
+		System.out.println(evenlist);
+	}
+}

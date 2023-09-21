@@ -1,0 +1,28 @@
+package in.com.collections;
+
+import java.util.ArrayList;
+import java.util.Collections;
+import java.util.Comparator;
+
+public class TestEmployee {
+	
+	public static void main(String[] args) {
+		
+		ArrayList<Employee> emp = new ArrayList();
+		emp.add(new Employee (5, "dipesh", "123456"));
+		emp.add(new Employee (1, "ram", "123345"));
+		emp.add(new Employee (3, "shubham", "156456"));
+		emp.add(new Employee (8, "hardeep", "189456"));
+		
+		System.out.println(emp);
+		
+		Collections.sort(emp, new ComparatorById());
+		System.out.println(emp);
+		
+		
+		ArrayList<Employee> emp1 = new ArrayList(emp);
+		Collections.sort(emp1, new ComparatorByName());
+		System.out.println(emp1);
+	}
+
+}

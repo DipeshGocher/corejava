@@ -1,4 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<session version="1.0">
-<refactoring comment="Rename type &apos;in.com.iohard.Bufferreader&apos; to &apos;BufferReader&apos;&#x0D;&#x0A;- Original project: &apos;Core java&apos;&#x0D;&#x0A;- Original element: &apos;in.com.iohard.Bufferreader&apos;&#x0D;&#x0A;- Renamed element: &apos;in.com.iohard.BufferReader&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;Bufferreader&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src&lt;in.com.iohard{Bufferreader.java[Bufferreader" matchStrategy="1" name="BufferReader" qualified="false" references="true" similarDeclarations="false" stamp="1693992314378" textual="false" version="1.0"/>
-</session>
