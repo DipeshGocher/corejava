@@ -1,0 +1,7 @@
+package in.com.iohard;
+
+public class Filewriter1 {
+public static void main(String[] args) {
+	Filewriter writer = new Filewriter ("C:\\Users\\ACER\\OneDrive\\Desktop\\iohard\\dipesh.txt");
+}
+}

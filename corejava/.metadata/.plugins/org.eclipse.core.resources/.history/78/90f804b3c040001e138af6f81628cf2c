@@ -1,0 +1,21 @@
+package in.com.inheritance;
+
+public class TestSRCT {
+	
+	public static void main(String[] args) {
+	
+	  Shape [] s = new Shape[3];
+	  
+	  s[0] = new Rectangle();
+	  s[1] = new Circle();
+	  s[2] = new Triangle();
+	  
+	  Rectangle r1 = (Rectangle) s[0];
+	  r1.setLength(12);
+	  r1.setWidth(5);
+	  r1.area();
+	  
+	  
+	}
+
+}

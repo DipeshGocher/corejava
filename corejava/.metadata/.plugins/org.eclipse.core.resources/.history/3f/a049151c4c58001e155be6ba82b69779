@@ -1,0 +1,9 @@
+package in.com.threading;
+
+public class FirstThread {
+	public static void main(String[] args) {
+		Mythread my = new Mythread();
+		Thread tr = new Thread();
+	}
+
+}

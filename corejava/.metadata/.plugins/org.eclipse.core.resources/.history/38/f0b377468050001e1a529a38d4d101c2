@@ -1,0 +1,19 @@
+package in.com.collections;
+
+import java.util.ArrayList;
+import java.util.List;
+
+public class TestList {
+	
+	public static void main(String[] args) {
+		
+		List l = new ArrayList();
+		
+		l.add(6);
+		l.add("olivia");
+		l.add('c');
+		l.add(90.9);
+		System.out.println(l);
+	}
+
+}

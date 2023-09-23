@@ -1,0 +1,12 @@
+package in.com.threading;
+
+public class FirstThread {
+	public static void main(String[] args) {
+		MyThread my = new MyThread();
+		
+		Thread tr = new Thread(my);
+		
+		tr.start();
+	}
+
+}

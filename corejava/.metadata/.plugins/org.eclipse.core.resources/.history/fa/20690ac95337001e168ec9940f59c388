@@ -1,0 +1,38 @@
+package in.com.batch;
+
+public class Array {
+	public static void main(String args[]) {
+		
+	/*	greatest number
+		
+		int [] arr = {10,20,55,75,98,23};
+		int a=0;
+		for(int i=0; i<arr.length; i++) {
+			if(arr[i]>a) {
+				a=arr[i];
+		}
+	}
+	System.out.println(a);
+				
+	}
+	*/
+		
+	//	Counting of notes
+		
+		int  number= 24765;
+		int[]arr = {2000,500,200,100,50,20,10,2,1};
+		
+		int count=0;
+		
+		for(int i =0; i<arr.length; i++) {
+			count=number/arr[i];
+			if(count>0) {
+				System.out.println(arr[i]+"="+count);
+			}
+			number = number%arr[i];
+			
+			}
+			
+		}
+			
+		}

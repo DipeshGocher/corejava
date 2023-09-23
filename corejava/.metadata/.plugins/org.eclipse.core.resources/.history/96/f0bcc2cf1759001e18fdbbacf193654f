@@ -1,0 +1,16 @@
+package in.com.threading;
+
+public class SetgetThread {
+	public static void main(String[] args) {
+		
+		System.out.println("progra start");
+		
+		int x = 100+100;
+		System.out.println("sum is = " + x);
+		
+		Thread t = Thread.currentThread();
+		String tname = t.getName();
+		System.out.println(t.getName());
+		}
+
+}

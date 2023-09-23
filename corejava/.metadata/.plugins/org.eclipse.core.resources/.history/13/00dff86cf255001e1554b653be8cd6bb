@@ -1,0 +1,27 @@
+package in.com.collections;
+
+import java.util.ArrayList;
+
+public class TestEmployee1 {
+	public static void main(String[] args) {
+		
+	//	Employee1 e1 = new Employee1(1, "hardeep", "kota");
+		
+		ArrayList list = new ArrayList();
+	//	list.add(e1);
+//	System.out.println(e1);	
+//	}
+//}
+
+               //methods
+
+	Employee1 e1 = (Employee1) list.get(0);
+       System.out.println(e1.getId());
+       System.out.println(e1.getName());
+       System.out.println(e1.getAddress());
+	}
+}
+
+
+
+      
